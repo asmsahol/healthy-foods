@@ -100,3 +100,44 @@ h2{
     font-size: 50px;
     margin-bottom: 10%;
 }
+.footersec{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+.footersec h2{
+    text-align: center;
+    color: blanchedalmond;
+}
+.footersec h2 span{
+    color: orange;
+}
+.footersec p{
+    text-align: center;
+}
+.headersaction {
+    background: #138696;
+    height: 120px;
+  }
+  .logosaction {
+    float: left;
+    height: 80px;
+  }
+  .logosec{
+      float: right;
+      margin: 45px 20px;
+  }
+  .logosaction img {
+    margin: 20px 5px 2px 10px;
+    width: 80px;
+  }
+  .head-title h1{
+    margin:0%;
+    padding: 0%;
+    margin-bottom: 20px;
+  }
+  .head-left{
+      float: left;
+  }
