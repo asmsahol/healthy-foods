@@ -54,15 +54,28 @@ h2{
 .about-healthy img{
     margin:10% 0;
 }
+.recipes-side-top img{
+    width: 100%;
+    padding-right: 5%;
+}
+.recipes-sec{
+    height: 75%;
+    padding-right: 5px;
+}
 .recipes-side{
+    box-shadow: 1px 1px 12px 3px grey;
     width:25%;
     float: left;
     margin-left: 5%;
-    padding-left: 2%;
+    padding: 10px;
+    height: 450px;
+    border-radius: 6%;
+}
+.recipes-side-top img{
+    border-radius: 10%;
 }
 .recipes-sec h2{
     text-align: left;
-    padding-left: 5%;
 }
 .recipes-sec h3{
     color: rgb(241, 115, 12);
@@ -70,8 +83,20 @@ h2{
 .recipes-side a{
     padding: 5%;
 }
-.recipes-sec div{
-    box-shadow: 5px 7px 40px gray;
-    height: 75%;
-    padding-right: 5px;
+.footer-top {
+    box-shadow: 1px 1px 12px 3px grey;
+    width: 90%;
+    float: left;
+    margin: 5%;
+    height: 200px;
+    border-radius: 15px;
+}
+.footer-top-div{
+    width:20%;
+    float: left;
+    padding-left: 10%;
+}
+.footer-top-div h3{
+    font-size: 50px;
+    margin-bottom: 10%;
 }
