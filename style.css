@@ -2,7 +2,7 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 section{
-    height: 500px;
+    height: 400px;
     padding-bottom: 100px;
 }
 .banner-side{
@@ -17,11 +17,17 @@ h1{
 h1 span{
     color: orange;
 }
+.banner-top{
+    background-image: url(images/frame-57.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .banner-side img{
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    padding-top: 5%;
 }
-.anchor-button{
+.button{
     text-decoration: none;
     background: linear-gradient(45deg, rgb(241, 147, 110), rgb(219, 81, 56));
     padding: 10px 40px;
@@ -29,7 +35,7 @@ h1 span{
     color: white;
     font-weight: 700;
 }
-.anchor-button:hover{
+.button:hover{
     background: linear-gradient(45deg, rgb(182, 81, 41), rgb(145, 34, 15));
     padding: 10px 40px;
     border-radius: 5px;
@@ -38,4 +44,13 @@ h1 span{
 }
 p{
     color: rgb(141, 133, 133);
+}
+.about-healthy{
+    background-image: url(images/bg.jpg)
+}
+h2{
+    font-size: 40px;
+}
+.about-healthy img{
+    margin:10% 0;
 }
