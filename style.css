@@ -5,7 +5,7 @@ section{
     height: 400px;
     padding-bottom: 100px;
 }
-.banner-side{
+.sec-side{
     width:40%;
     float: left;
     margin-left: 5%;
@@ -22,7 +22,7 @@ h1 span{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.banner-side img{
+.sec-side img{
     width: 100%;
     padding-bottom: 50px;
     padding-top: 5%;
@@ -53,4 +53,25 @@ h2{
 }
 .about-healthy img{
     margin:10% 0;
+}
+.recipes-side{
+    width:25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.recipes-sec h2{
+    text-align: left;
+    padding-left: 5%;
+}
+.recipes-sec h3{
+    color: rgb(241, 115, 12);
+}
+.recipes-side a{
+    padding: 5%;
+}
+.recipes-sec div{
+    box-shadow: 5px 7px 40px gray;
+    height: 75%;
+    padding-right: 5px;
 }
